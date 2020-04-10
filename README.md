@@ -40,14 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Express is effectively the react of the backend, it is a framework that facilitates creating web applications/services. A main function of express is the ability to use middleware to get request/response objects, operate on them, and trigger some action.
+
 - [ ] Describe Middleware?
+
+    Middleware is an array of functions that get executed in the order they are introduced in the server code. Like mentioned above, they can get the request/response objects, operate on them, and trigger some action.   
 
 - [ ] Describe a Resource?
 
+    A resource is a collection of data sent across a network via request and responses.
+
 - [ ] What can the API return to help clients know if a request was successful?
+
+    There are various status codes used to let the client know how the request went.
 
 - [ ] How can we partition our application into sub-applications?
 
+    We can divide up our application by using the router method to break it up into multiple smaller applications. This is a good way to organize web API code.
+    
 ## Minimum Viable Product
 
 - [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
